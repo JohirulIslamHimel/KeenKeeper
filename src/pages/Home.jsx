@@ -1,5 +1,6 @@
 import { Plus } from "lucide-react";
 import React from "react";
+import SummaryCards from "../components/SummaryCards";
 
 const Home = () => {
   return (
@@ -22,6 +23,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <div className="max-w-7xl mx-auto px-4">
+        <SummaryCards />
+      </div>
     </div>
   );
 };
