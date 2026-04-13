@@ -12,7 +12,7 @@ const Navbar = () => {
         <NavLink
           to="/"
           className={({ isActive }) =>
-            isActive ? "bg-[#134e4a]! text-white!" : ""
+            isActive ? "bg-[#244D3F]! text-white!" : ""
           }
         >
           <Home size={18} /> Home
@@ -22,7 +22,7 @@ const Navbar = () => {
         <NavLink
           to="/timeline"
           className={({ isActive }) =>
-            isActive ? "bg-[#134e4a]! text-white!" : ""
+            isActive ? "bg-[#244D3F]! text-white!" : ""
           }
         >
           <History size={18} /> Timeline
@@ -32,7 +32,7 @@ const Navbar = () => {
         <NavLink
           to="/stats"
           className={({ isActive }) =>
-            isActive ? "bg-[#134e4a]! text-white!" : ""
+            isActive ? "bg-[#244D3F]! text-white!" : ""
           }
         >
           <BarChart3 size={18} /> Stats

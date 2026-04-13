@@ -5,6 +5,7 @@ import { RouterProvider } from "react-router/dom";
 import { createBrowserRouter } from "react-router";
 import Navbar from "./components/Navbar.jsx";
 import MainLayout from "./layout/MainLayout.jsx";
+import Home from "./pages/Home.jsx";
 
 const router = createBrowserRouter([
   {
@@ -13,11 +14,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: (
-          <div className="p-10 text-center text-2xl">
-            Home Page Content Coming Soon...
-          </div>
-        ),
+        element: <Home></Home>,
       },
       {
         path: "/timeline",
