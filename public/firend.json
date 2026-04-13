@@ -1,0 +1,122 @@
+[
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "picture": "https://randomuser.me/api/portraits/men/3.jpg",
+    "email": "michael@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["gym", "friend"],
+    "bio": "Workout partner from local gym.",
+    "goal": 10,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "picture": "https://randomuser.me/api/portraits/women/4.jpg",
+    "email": "emily@example.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["school", "friend"],
+    "bio": "High school best friend.",
+    "goal": 20,
+    "next_due_date": "2026-03-25"
+  },
+  {
+    "id": 5,
+    "name": "Daniel Wilson",
+    "picture": "https://randomuser.me/api/portraits/men/5.jpg",
+    "email": "daniel@example.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["startup", "network"],
+    "bio": "Met at startup networking event.",
+    "goal": 12,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 6,
+    "name": "Sophia Taylor",
+    "picture": "https://randomuser.me/api/portraits/women/6.jpg",
+    "email": "sophia@example.com",
+    "days_since_contact": 18,
+    "status": "due-soon",
+    "tags": ["design", "colleague"],
+    "bio": "UI/UX designer colleague.",
+    "goal": 14,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 7,
+    "name": "James Anderson",
+    "picture": "https://randomuser.me/api/portraits/men/7.jpg",
+    "email": "james@example.com",
+    "days_since_contact": 40,
+    "status": "overdue",
+    "tags": ["family", "cousin"],
+    "bio": "Lives abroad, cousin.",
+    "goal": 30,
+    "next_due_date": "2026-03-20"
+  },
+  {
+    "id": 8,
+    "name": "Olivia Thomas",
+    "picture": "https://randomuser.me/api/portraits/women/8.jpg",
+    "email": "olivia@example.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["project", "team"],
+    "bio": "Team member in recent project.",
+    "goal": 7,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 9,
+    "name": "William Moore",
+    "picture": "https://randomuser.me/api/portraits/men/9.jpg",
+    "email": "william@example.com",
+    "days_since_contact": 15,
+    "status": "due-soon",
+    "tags": ["business", "client"],
+    "bio": "Regular business client.",
+    "goal": 14,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 10,
+    "name": "Ava Jackson",
+    "picture": "https://randomuser.me/api/portraits/women/10.jpg",
+    "email": "ava@example.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["freelance", "client"],
+    "bio": "Freelance project client.",
+    "goal": 10,
+    "next_due_date": "2026-04-01"
+  },
+  {
+    "id": 11,
+    "name": "Benjamin White",
+    "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+    "email": "benjamin@example.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["gaming", "friend"],
+    "bio": "Online gaming friend.",
+    "goal": 7,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 12,
+    "name": "Mia Harris",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "mia@example.com",
+    "days_since_contact": 27,
+    "status": "overdue",
+    "tags": ["university", "classmate"],
+    "bio": "Classmate from university.",
+    "goal": 14,
+    "next_due_date": "2026-03-28"
+  }
+]
