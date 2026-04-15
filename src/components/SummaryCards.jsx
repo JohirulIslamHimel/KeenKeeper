@@ -1,10 +1,21 @@
 import React from "react";
+import useFriendData from "../hooks/useFriendData";
 
 const SummaryCards = () => {
+  const { friends } = useFriendData();
+
   const stats = [
-    { id: 1, label: "Total Friends", value: 10 },
-    { id: 2, label: "On Track", value: 3 },
-    { id: 3, label: "Need Attention", value: 6 },
+    { id: 1, label: "Total Friends", value: friends.length },
+    {
+      id: 2,
+      label: "On Track",
+      value: friends.filter((f) => f.status === "On-Track").length,
+    },
+    {
+      id: 3,
+      label: "Need Attention",
+      value: friends.filter((f) => f.status !== "On-Track").length,
+    },
     { id: 4, label: "Interactions This Month", value: 12 },
   ];
 

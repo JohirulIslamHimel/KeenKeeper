@@ -6,6 +6,7 @@ import { createBrowserRouter } from "react-router";
 import Navbar from "./components/Navbar.jsx";
 import MainLayout from "./layout/MainLayout.jsx";
 import Home from "./pages/Home.jsx";
+import FriendProvider from "./context/FriendProvider.jsx";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <FriendProvider>
+      <RouterProvider router={router} />
+    </FriendProvider>
   </StrictMode>,
 );
