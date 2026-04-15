@@ -8,6 +8,7 @@ import MainLayout from "./layout/MainLayout.jsx";
 import Home from "./pages/Home.jsx";
 import FriendProvider from "./context/FriendProvider.jsx";
 import FriendDetails from "./pages/FriendDetails.jsx";
+import TimeLine from "./pages/TimeLine.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/timeline",
-        element: <div className="p-10 text-center text-2xl">Timeline Page</div>,
+        element: <TimeLine></TimeLine>,
       },
       {
         path: "/stats",
