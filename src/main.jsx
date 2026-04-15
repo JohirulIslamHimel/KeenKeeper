@@ -9,6 +9,7 @@ import Home from "./pages/Home.jsx";
 import FriendProvider from "./context/FriendProvider.jsx";
 import FriendDetails from "./pages/FriendDetails.jsx";
 import TimeLine from "./pages/TimeLine.jsx";
+import Stats from "./pages/Dashboard/Stats.jsx";
 
 const router = createBrowserRouter([
   {
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/stats",
-        element: <div className="p-10 text-center text-2xl">Stats Page</div>,
+        element: <Stats></Stats>,
       },
     ],
   },
