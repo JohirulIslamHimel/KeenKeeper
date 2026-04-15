@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import useFriendData from "../hooks/useFriendData";
 import { Clock, MessageSquare, Phone, Target, Video } from "lucide-react";
+import QuickCheckIn from "../components/QuickCheckIn";
 
 const FriendDetails = () => {
   const { id } = useParams();
@@ -43,13 +44,13 @@ const FriendDetails = () => {
 
         {/* Action buttons */}
         <div className="space-y-3">
-          <button className="w-full py-3 bg-white border border-gray-200 rounded-xl flex items-center justify-center gap-2 font-medium hover:bg-gray-50">
+          <button className="w-full py-3 bg-white border border-gray-200 rounded-xl flex items-center justify-center gap-2 font-medium hover:bg-gray-50 cursor-pointer">
             <Clock size={18} /> Snooze 2 Weeks
           </button>
-          <button className="w-full py-3 bg-white border border-gray-200 rounded-xl flex items-center justify-center gap-2 font-medium hover:bg-gray-50 text-gray-600">
+          <button className="w-full py-3 bg-white border border-gray-200 rounded-xl flex items-center justify-center gap-2 font-medium hover:bg-gray-50 text-gray-600 cursor-pointer">
             Archive
           </button>
-          <button className="w-full py-3 bg-white border border-red-100 rounded-xl flex items-center justify-center gap-2 font-medium text-red-500 hover:bg-red-50">
+          <button className="w-full py-3 bg-white border border-red-100 rounded-xl flex items-center justify-center gap-2 font-medium text-red-500 hover:bg-red-50 cursor-pointer">
             Delete
           </button>
         </div>
@@ -91,25 +92,7 @@ const FriendDetails = () => {
         </div>
 
         {/* Quick Check-In  */}
-        <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
-          <h3 className="text-lg font-bold text-[#244D3F] mb-6">
-            Quick Check-In
-          </h3>
-          <div className="grid grid-cols-3 gap-4">
-            <button className="flex flex-col items-center justify-center p-6 bg-gray-50 rounded-2xl hover:bg-gray-100 transition-colors">
-              <Phone className="mb-2 text-[#244D3F]" />{" "}
-              <span className="text-sm font-medium">Call</span>
-            </button>
-            <button className="flex flex-col items-center justify-center p-6 bg-gray-50 rounded-2xl hover:bg-gray-100 transition-colors">
-              <MessageSquare className="mb-2 text-[#244D3F]" />{" "}
-              <span className="text-sm font-medium">Text</span>
-            </button>
-            <button className="flex flex-col items-center justify-center p-6 bg-gray-50 rounded-2xl hover:bg-gray-100 transition-colors">
-              <Video className="mb-2 text-[#244D3F]" />{" "}
-              <span className="text-sm font-medium">Video</span>
-            </button>
-          </div>
-        </div>
+        <QuickCheckIn friend={friend}></QuickCheckIn>
       </div>
     </div>
   );

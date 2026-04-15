@@ -118,5 +118,29 @@
     "bio": "Classmate from university.",
     "goal": 14,
     "next_due_date": "2026-03-28"
+  },
+  {
+    "id": 11,
+    "name": "Sarah Miller",
+    "picture": "https://randomuser.me/api/portraits/women/2.jpg",
+    "email": "sarah@example.com",
+    "days_since_contact": 25,
+    "status": "Overdue",
+    "tags": ["work", "mentor"],
+    "bio": "Former colleague and a great mentor in web dev.",
+    "goal": 15,
+    "next_due_date": "2026-03-30"
+  },
+  {
+    "id": 12,
+    "name": "Alex Johnson",
+    "picture": "https://randomuser.me/api/portraits/men/1.jpg",
+    "email": "alex@example.com",
+    "days_since_contact": 12,
+    "status": "On-Track",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 14,
+    "next_due_date": "2026-04-20"
   }
 ]
