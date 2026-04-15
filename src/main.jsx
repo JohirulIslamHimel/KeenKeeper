@@ -10,6 +10,7 @@ import FriendProvider from "./context/FriendProvider.jsx";
 import FriendDetails from "./pages/FriendDetails.jsx";
 import TimeLine from "./pages/TimeLine.jsx";
 import Stats from "./pages/Dashboard/Stats.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/stats",
         element: <Stats></Stats>,
+      },
+      {
+        path: "*",
+        element: <NotFound></NotFound>,
       },
     ],
   },
