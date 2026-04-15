@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar.jsx";
 import MainLayout from "./layout/MainLayout.jsx";
 import Home from "./pages/Home.jsx";
 import FriendProvider from "./context/FriendProvider.jsx";
+import FriendDetails from "./pages/FriendDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/friend/:id",
+        element: <FriendDetails></FriendDetails>,
       },
       {
         path: "/timeline",
