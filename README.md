@@ -4,7 +4,7 @@
 
 ## 🛠️ Technologies Used
 
-- **Core:** React.js, React Router v7
+- **Core:** React.js, React Router
 - **State Management:** Context API (FriendProvider)
 - **Data Visualization:** Recharts (PieChart for analytics)
 - **Styling:** Tailwind CSS, DaisyUI
