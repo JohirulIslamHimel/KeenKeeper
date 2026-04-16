@@ -8,10 +8,15 @@ import {
   Phone,
   Video,
 } from "lucide-react";
+import Loading from "../components/Loading";
 
 const TimeLine = () => {
-  const { timeline } = useFriendData();
+  const { timeline, loading } = useFriendData();
   const [filter, setFilter] = useState("All");
+
+  if (loading) {
+    return <Loading></Loading>;
+  }
 
   const filteredTimeline =
     filter === "All"

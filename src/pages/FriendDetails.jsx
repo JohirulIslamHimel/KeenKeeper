@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import useFriendData from "../hooks/useFriendData";
 import { Clock, MessageSquare, Phone, Target, Video } from "lucide-react";
 import QuickCheckIn from "../components/QuickCheckIn";
+import Loading from "../components/Loading";
 
 const FriendDetails = () => {
   const { id } = useParams();
@@ -11,11 +12,7 @@ const FriendDetails = () => {
   const friend = friends.find((f) => f.id === parseInt(id));
 
   if (!friend) {
-    return (
-      <div className="text-center py-20 text-2xl font-bold">
-        Loading or Friend Not Found...
-      </div>
-    );
+    return <Loading></Loading>;
   }
   return (
     <div className="max-w-7xl mx-auto p-6 md:p-10 grid grid-cols-1 lg:grid-cols-12 gap-8">
