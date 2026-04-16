@@ -17,9 +17,12 @@ const Stats = () => {
   ];
   return (
     <div className="max-w-4xl mx-auto my-10 shadow-lg p-6 md:p-10 rounded-2xl border border-gray-100 bg-white container">
-      <h2 className="font-extrabold text-3xl mb-10 text-center text-[#1F2937]">
-        Friendship Analytics
-      </h2>
+      <div className="mb-10">
+        <h2 className="font-extrabold text-3xl text-[#1F2937]">
+          Friendship Analytics
+        </h2>
+        <p className="text-[#244D3F] font-medium mt-2">By Interaction Type</p>
+      </div>
 
       <div className="flex flex-col items-center justify-center">
         {timeline.length === 0 ? (
