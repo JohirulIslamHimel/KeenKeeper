@@ -19,7 +19,9 @@ const QuickCheckIn = ({ friend }) => {
     };
 
     addTimelineEntry(newEntry);
-    toast.success(`${type} added!`, { position: "top-center" });
+    toast.success(`${type} with ${friend.name} added!`, {
+      position: "top-center",
+    });
   };
 
   return (
