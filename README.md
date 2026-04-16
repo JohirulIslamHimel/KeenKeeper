@@ -1,16 +1,32 @@
-# React + Vite
+# **Project Name** KeenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**KeenKeeper** is a personal relationship management dashboard designed to help users track, manage, and nurture their most meaningful connections. It provides a visual and organized "shelf" for relationships, ensuring you stay consistent with your social goals.
 
-Currently, two official plugins are available:
+## 🛠️ Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Core:** React.js, React Router v7
+- **State Management:** Context API (FriendProvider)
+- **Data Visualization:** Recharts (PieChart for analytics)
+- **Styling:** Tailwind CSS, DaisyUI
+- **Icons & Feedback:** Lucide React, React Toastify
+- **Animation:** React Spinners (FadeLoader)
 
-## React Compiler
+## 🚀 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Easy Friend Tracking:** A simple dashboard to see all your friends in one place. It uses color-coded badges (Green for On-Track, Red for Overdue) to show who you need to talk to.
+**Smart Interaction Log:** A timeline that keeps track of every Call, Text, or Video chat. You can easily search for a friend's name or filter the list to find old conversations.
+**Visual Progress Charts:** A stats page with easy-to-understand Pie Charts. It shows you how often you are calling or texting, helping you see your social habits at a glance.
+**Quick Log Button:** You can record a new call or message with just one click from the friend's profile. It updates everything across the app instantly.
+**Communication Goals:** You can set a goal for each friend (like "talk every 7 days"). The app will then automatically track if you are meeting that goal.
+**Mobile Friendly:** The entire app is designed to look great and work perfectly on both your phone and your computer.
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/components`: Reusable UI components like FriendCard, Navbar, and QuickCheckIn.
+- `src/context`: Global state management using React Context API.
+- `src/hooks`: Custom hooks for clean data access across the app.
+- `src/pages`: Main application views including Home, Timeline, and Stats.
+
+---
+
+© 2026 KeenKeeper - Nurture the relationships that matter most.

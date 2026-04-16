@@ -4,13 +4,6 @@ import SummaryCards from "../components/SummaryCards";
 import FriendList from "../components/FriendList";
 
 const Home = () => {
-  //   const friend = {
-  //     name: "Michael Brown",
-  //     picture: "https://randomuser.me/api/portraits/men/3.jpg",
-  //     days_since_contact: 5,
-  //     status: "On-Track",
-  //     tags: ["gym", "friend"],
-  //   };
   return (
     <div className="space-y-10">
       {/* Banner section */}
